@@ -1,6 +1,9 @@
 # SCARA-manipulator-Trajectory-Planning
 The aim of this project is to compute the trajectory in the operational space. We consider the given points at the time stamps given with sample time Ts. The trajectory is generated using  the trapezoidal velocity profile. The total trajectory is completed in 3.4 seconds while considering the anticipation time.
 
+The part-1 folder contains the code for generation of the End-effector trajectory.
+
+The part -2 folder contains the code for the generation of the joint trajectory when a 5kg load is placed at the end-effector.
 ## Generating the Trajectory
 
 We are given 5 waypoints through which the end-effector must pass. We first compute the constant acceleration and time for each of the consecutive segments.'
